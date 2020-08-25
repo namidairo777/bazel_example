@@ -4,3 +4,4 @@ java_projects/bazel-bin
 java_projects/bazel-java_projects
 java_projects/bazel-out
 java_projects/bazel-testlogs
+java_projects/.ijwb

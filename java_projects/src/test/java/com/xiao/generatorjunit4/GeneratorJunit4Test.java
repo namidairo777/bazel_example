@@ -1,10 +1,10 @@
 package com.xiao.generatorjunit4;
 
-        import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertEquals;
 
-        import org.junit.Test;
+import org.junit.Test;
 
-        import com.xiao.generator.Generator;
+import com.xiao.generator.Generator;
 
 public class GeneratorJunit4Test {
     final Generator target = new Generator();

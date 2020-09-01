@@ -16,12 +16,12 @@ def _impl(ctx):
 
 javadoc = rule(
     attrs = {
-        "srcs": attr.label_list(allow_files=true),
+        "srcs": attr.label_list(allow_files=True),
         "_jdk": attr.label(
             default = Label("@bazel_tools//tools/jdk:current_java_runtime"),
             providers = [java_common.JavaRuntimeInfo],
         ),
     } ,
-    implementation = __impl,
+    implementation = _impl,
     outputs = {"zip": "%{name}.zip"},
 )

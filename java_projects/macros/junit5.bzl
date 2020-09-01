@@ -1,3 +1,4 @@
+# macro: reuse existing rule
 def java_junit5_test(name, srcs, test_package, deps = [], runtime_deps = [], **kwargs):
     FILTER_KWARGS = [
         "main_class",
